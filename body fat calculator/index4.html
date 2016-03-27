@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>My web page</title>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="index4.js"></script>
+    <link type="text/css" href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+
+    <label for="mass">Мерни единици за маса</label>
+    <input name="mass" type="radio" required="required" onchange="AddAtributeKgAndCant(); SizeCant();" class="mass"  id="kilos"  /> kg
+    <input name="mass" type="radio" required="required" onchange="AddAtributeLbsAndInch(); SizeInch();" class="mass" id="lbs" /> lbs
+    <br />
+
+    <label for="weight">Въведете маса: </label>
+    <input type="number" id="bodyweight" placeholder="10" onchange="BMResult(); BodyMassKg(); CaloriesNeed();" required="required" />
+    <br />
+
+    <label for="rangein">Въведете възраст: 0</label>
+    <input type="range" class="rangein" min="0" max="123" value="0" onchange="DisplayRangeVal();"  />123<br />
+    <span class="radioto">0</span>
+
+   
+    
+    <br />
+
+    <input type="radio" name="met" id="cantimeter" onchange="AddAtributeKgAndCant(); SizeCant();" required="required" /> <label for="cantimeters" >cantimeters</label>
+    <input type="radio" name="met" id="inches" onchange="AddAtributeLbsAndInch(); SizeInch();" required="required" /><label for="inches">inches</label>
+    
+    <br />
+    
+    <label for="range1">Въведете ръст: 0</label>
+    <input type="range"  id="range1" min="0" max="272" value="0" onchange="DisplaySizeVal();" disabled="disabled" /><span id="size">272</span><br />
+    <span class="razmera">0</span>
+    <br />
+
+    <label for="mOrf">Пол:</label>
+    <input type="radio" name="mOrf" onchange="BMResult(); CaloriesNeed();" class="pol" id="male" value="male" />M
+    <input type="radio" name="mOrf" onchange="BMResult(); CaloriesNeed();" class="pol" id="female" value="female" />F
+    <br />
+
+    <label>Активност :</label>
+        <select id="sel" onchange="CaloriesNeed();">
+            <option  value="1.2" >Никакви или малко упражнения</option>
+            <option  value="1.375" >Леки упражнения или спорт, 1-3 дни/седмично</option>
+            <option  value="1.550" >Умерени упражнения или спорт, 1-5 дни/седмично</option>
+            <option  value="1.725" >Висока активност с изморителни спортове или тежки тренировки, 6-7 дни/седмично</option>
+            <option  value="1.900" >Високонатоварваща физическа работа или упражнения, 2 пъти/дневно</option>
+        </select>
+    
+    <br />
+
+    <div id="results">
+        <span>Индекс на телесната маса: </span><span id="resultMass"></span><br />
+        <span>Базова метаболитна скорост: </span><span id="resultBMR" ></span><br />
+        <span>Дневна калорийна нужда: </span><span id="cal" ></span><br />
+        <span id="comment"></span>
+    </div>
+
+
+
+    
+    
+</body>
+</html>

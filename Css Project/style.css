@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-color:#aedfe5;
+	font-family:Myriad Pro, Helvetica, Arial, sans-serif;
+	font-size: 13pt;
+	color: black;
+}
+
+
+header
+{
+	width: 900px;
+	text-align: center;
+	background-image:url(without%20background.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+div#main
+{
+	width: 900px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	margin-top: 0px;
+}
+nav.mynav
+{
+	background-color:#2580c6;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+nav.mynav a
+{
+	font-size:20px;
+	padding: 10px;
+	text-decoration:none;
+	color:#489cdf;
+	display: inline-block;
+}
+nav.mynav a:hover
+{
+	text-decoration:underline;
+	
+}
+nav.mynav a:visited
+{
+	color: #b40404;
+}
+div#imgcontainer
+{
+	width: 900px;
+	height: 410px;
+}
+div#content
+{
+	width: 880px;
+	background-color: white;
+	min-height: 400px;
+	padding: 10px;
+}
+img#mainimage
+{
+	width: 890px;
+	height: 400px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+div#artparent
+{
+	background-color: rgb(228,228,228);
+	
+}
+div#namedate
+{
+	margin-left: auto;
+	margin-right:auto;
+	width: 300px;
+	height: 100px;
+	background-size:300px 100px;
+	padding-top: 5px;
+	
+}
+
+div.mainarticle
+{
+	background-image:url(border1.png);
+	background-repeat:no-repeat;
+	background-size: 270px 220px;
+	width: 260px;
+	height: 220px;
+	padding: 10px;
+	
+}
+div#namedate3, div#namedate2 
+{
+	padding-right: 20px;
+	float: left;
+	margin-right: 10px;
+}
+
+div#namedate4
+{
+	float:left;
+}
+
+article
+{
+	background-color:rgb(255,255,255);
+}
+div#clr
+{
+	clear: both;
+}
+span.headers
+{
+	font-weight: bold;
+	text-decoration: underline;
+}
+footer
+{
+	background-color: #2eccfa;
+	text-align: center;
+	padding: 5px;
+	position: fixed;
+	width: 890px;
+	bottom: 0px;
+	opacity: 0.6;
+	height: auto;
+}
+
+footer:hover
+{
+	opacity: 1.0;
+}
+
+ul
+{
+	list-style-type:disc;
+}
+
+img.imager
+{
+	width: 20px;
+	height: 20px;
+}
+
+div.contacts
+{
+	float:left;
+	padding-left: 5px;
+	margin-right:auto;
+	margin-right:auto;
+}
+div#hyper
+{
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+}
+legend
+{
+	text-align: center;
+}
+h1#contact_h
+{
+	text-align:center;
+	font-size: 20px;
+}
+img.gallery
+{
+	width: 400px;
+	height: 300px;
+	float: left;
+}
+div#merge
+{
+	width:auto;
+	margin-right:auto;
+	margin-left:auto;
+	margin-left: 30px;
+}
+div.clr
+{
+	clear:both;
+}
+

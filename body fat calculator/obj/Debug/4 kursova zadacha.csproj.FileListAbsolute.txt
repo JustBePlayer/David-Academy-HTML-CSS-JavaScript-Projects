@@ -1,0 +1,5 @@
+D:\HTML and CSS\David\3 i 4 kursova zadacha\4 kursova zadacha\bin\4 kursova zadacha.dll
+D:\HTML and CSS\David\3 i 4 kursova zadacha\4 kursova zadacha\bin\4 kursova zadacha.pdb
+D:\HTML and CSS\David\3 i 4 kursova zadacha\4 kursova zadacha\obj\Debug\4 kursova zadacha.csprojResolveAssemblyReference.cache
+D:\HTML and CSS\David\3 i 4 kursova zadacha\4 kursova zadacha\obj\Debug\4 kursova zadacha.dll
+D:\HTML and CSS\David\3 i 4 kursova zadacha\4 kursova zadacha\obj\Debug\4 kursova zadacha.pdb
